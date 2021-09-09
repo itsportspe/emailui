@@ -1,0 +1,181 @@
+body {
+  background-color: WhiteSmoke;
+}
+
+nav {
+//  border: solid 1px blue;
+//  background-color: WhiteSmoke;
+}
+ul {
+  list-style-type: none;
+
+//  background-color: yellow;
+}
+
+div.container {
+//  background-color: blue;
+}
+
+span {
+//  background-color: purple;
+}
+
+li {
+//  background-color: lightblue;
+}
+
+ul > div > li span.fa-caret-right {
+  color: green;
+}
+
+ul > div > li span.fa-flushed {
+  color: green;
+}
+
+ul > div > li span.fa-trash {
+  color: green;
+}
+
+ul > div > li:hover {
+  background-color: white;
+}
+
+div > div > div.position-fixed {
+  height: 100%;
+  padding-right: 0;
+  width: 351px;
+  background-color: WhiteSmoke;
+}
+
+div > div > div > img {
+display: inline-block;
+width: 75px;
+height: 75px;
+padding-right: 1px;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+
+div > div > div > img ~ div {
+  display: inline-block;
+  //padding-top: 15px;
+  //margin-top: 10px;
+  position: relative;
+  top: 15px;
+}
+
+div > div > div > img ~ div > span {
+  font-size: 1.8em;
+}
+div > div > div > img ~ div > span ~ p {
+  font-size: 1em;
+  color: grey;
+}
+
+div.d-block {
+//  height: 95px;
+//  border: solid 1px orange;
+}
+
+div > div > div.position-sticky {
+//  flex: 0 0 300px;
+  width: 350px;
+  display: inline-block;
+}
+
+div > div > div + div.container-fluid {
+  background-color: white;
+  margin-left: 351px;
+  width: calc(100% - 351px);
+}
+
+div > div > div + div.container-fluid > div.row:first-child {
+  padding-bottom: 30px;
+}
+
+input {
+  //height: 45px;
+  //display: inline-block;
+  font-family: "Muli", "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+input ~ span:hover {
+  background-color: WhiteSmoke;
+}
+
+input ~ span {
+//  height: 45px;
+}
+
+div > div > div > ul {
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+.readUnread {
+  height: 6em;
+  position: relative;
+  display: inline-block;
+}
+
+.readUnread > span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: blue;
+  display: inline-block;
+  position: relative;
+  top: 1.5em;
+
+}
+
+.readUnread > span ~ h5 {
+}
+
+.position-left-side {
+  position: relative;
+  //left: 1em;
+}
+
+span.position-right-side {
+
+  position: relative;
+  //right: 1em;
+
+}
+
+.width-98 {
+  width: 98%;
+}
+
+.one-font-height {
+   height: 1.5em;
+ }
+
+ .d-inline-block {
+   display: inline-block;
+   vertical-align: top;
+ }
+
+.hover-grey:hover {
+  background-color: #fffdcf;
+}
+
+.readUnread > span {
+}
+
+.bottom {
+  width: 100%;
+  height: 100px;
+}
+
+.timestamp {
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .timestamp {
+    text-align: left !important;
+  }
+}
